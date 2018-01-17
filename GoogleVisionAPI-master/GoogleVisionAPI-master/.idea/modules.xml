@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://C:\Users\Anil.MH\Desktop\GoogleVisionAPI-master\GoogleVisionAPI-master\GoogleVisionAPI.iml" filepath="C:\Users\Anil.MH\Desktop\GoogleVisionAPI-master\GoogleVisionAPI-master\GoogleVisionAPI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GoogleVisionAPI-master.iml" filepath="$PROJECT_DIR$/GoogleVisionAPI-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>

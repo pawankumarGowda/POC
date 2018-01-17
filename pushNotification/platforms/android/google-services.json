@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "656526213065",
+    "firebase_url": "https://fcm-poc-c1257.firebaseio.com",
+    "project_id": "fcm-poc-c1257",
+    "storage_bucket": "fcm-poc-c1257.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656526213065:android:336b5a2fa7066740",
+        "android_client_info": {
+          "package_name": "com.excel.pushNotification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "656526213065-bh6n4v6iq7k7hestjqoqoifv0u1e30s6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGs81XLXFS5mb3hh9mVmjg47Ka8kixsuI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

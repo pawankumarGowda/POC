@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html >
+<head class="ui-mobile">
+<meta name="viewport" content="height=device-height,width=device-width,initial-scale=1.0,maximum-scale=1.0">
+<script type="text/javascript" charset="utf-8" src="../js/plugins/jquery.mobile-1.4.5.min.js"></script>
+<link rel="stylesheet" href="../css/plugins/jquery.mobile-1.4.5.min.css" />
+<link rel="stylesheet" href="../css/custom/w3.css" />
+<link rel="stylesheet" href="../css/custom/common.css" />
+<link rel="stylesheet" href="../css/custom/responsive.css" />
+<link rel="stylesheet" href="../css/custom/login.css" />
+</head>
+<body class="body">
+<div data-role="page">
+  <div data-role="main" class="ui-content">
+    <div class="logo_login"><center><img  src="../img/Logo.png" /></center></div>
+    <div class="text1">Sign in</div>    
+    <form class="w3-container">
+        <div class="marb40 dispnone">
+            <label class="text2">Login name</label>
+            <input class="w3-input loginprofileicon" type="text">
+        </div>
+        <div class="marb40 dispnone">
+            <label class="text2">Password</label>
+            <input class="w3-input NewPasswordicon" type="password" id="myPsw" type="text">
+        </div>
+        <div class="marb40 dispnone">
+            <label class="text2">Security Question</label>
+            <input class="w3-input SecurityQuestionicon" type="text">
+        </div>
+        <div class="marb40 dispnone">
+            <label class="text2">Security Answer</label>
+            <input class="w3-input SecurityAnswericon" type="text">
+        </div>
+
+
+        <div class="marb40">
+            <label class="text2">Current Password</label>
+            <input class="w3-input SecurityQuestionicon" type="text">
+        </div>
+        <div class="marb40">
+            <label class="text2">New Password</label>
+            <input class="w3-input NewPasswordicon" type="password" id="myPsw" type="text">
+        </div>
+        <div class="marb40">
+            <label class="text2">Confirm Password</label>
+            <input class="w3-input ConfirmPasswordicon" type="text">
+        </div>
+    </form>
+    <div class="width80">
+        <div class="btn1 mar30">Sign in</div>
+        <div class="btn2 mar30">Forgot Password ?</div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+<script>
+    function myFunction() {
+        var x = document.getElementById("myPsw").value;
+        document.getElementById("demo").innerHTML = x;
+    }
+</script>
+

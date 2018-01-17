@@ -1,0 +1,4 @@
+// GENERATED FILE - DO NOT EDIT
+include ":"
+include ":CordovaLib"
+project(':CordovaLib').projectDir = new File('CordovaLib')
